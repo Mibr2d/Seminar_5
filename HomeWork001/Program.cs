@@ -38,5 +38,4 @@ void PrintArray(int[] array)
 }
 int[] array = GenerateArray(8);
 PrintArray(array);
-int count=EvenNumber(array);
 System.Console.WriteLine($"Количество четных чисел в массиве {EvenNumber(array)}");
