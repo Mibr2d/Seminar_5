@@ -20,11 +20,10 @@ int[] GenerateArray(int len)
 int oddNumber(int[] array)
 {
     int count = 0;
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i += 2)
     {
-        if (array[i] % 2 != 0)
         {
-            count +=array[i];
+            count += array[i];
         }
     }
     return count;
