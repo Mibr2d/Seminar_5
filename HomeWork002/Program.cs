@@ -40,5 +40,4 @@ void PrintArray(int[] array)
 }
 int[] array = GenerateArray(5);
 PrintArray(array);
-int count=oddNumber(array);
 System.Console.WriteLine($"Сумма чисел на нечетных позициях {oddNumber(array)}");
